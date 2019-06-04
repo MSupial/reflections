@@ -1,0 +1,38 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Because the initial version of the program worked successfully, and the new version of the program
+did not work successfully, one of the changes introduced must have caused the bug.  Therefore,
+using the diff command to quickly compare differences between the two files would make isolating
+this specific bug-causing change much easier than manually comparing each entire file, line by line.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+There may be instances when a programmer would want to try something new, or bring their project in a different
+direction.  If these efforts prove unsuccessful, the programmer might want to revert back to a point in the
+project's history at which things were working properly.  Having access to the entire history of the project 
+files would allow for this.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Giving the user manual control over when commits are made is the best way to ensure that each commit represents a single logical change to the code/file.  If automatic saving were used instead, commit sizes would vary considerably in a way that would not consistently reflect logical save points. 
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Different version control systems are tailored for different userbases.  As Git is predominantly targetted towards programmers, it makes sense that multiple file tracking is an included feature.  
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log returns all commits ever made (from most to least recent), and displays each commit's unique ID and commit message.  This is itself a history of the files in the repository.  More specific information can be obtained by using git diff <id#1> <id#2> to compare two different commits. 
+
+
+How might using version control make you more confident to make changes that could break something?
+
+If logical commits have been made, then even if something becomes broken, the situation can be salvaged by simply going back through the version history.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to start using it for programming projects.  The first things I'll probably use it for are the practice python exercises I've been doing.
