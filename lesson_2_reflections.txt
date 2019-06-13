@@ -10,3 +10,8 @@ The staging area only contains the items that the user has selected for being in
 How can you use the staging area to make sure you have one commit per logical change?
 
 Files can be added or removed to the staging area with git add <file> and git rm <file>.  Additionally, the user can verify any changes between the staging area and the most recent commit.  Using both of these features, it is possible to make sure that the staging area contains only a single logical change.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches could be useful when testing out an experimental feature or creating an alternate version of the project with various differences (an easier version of a game, etc).  
