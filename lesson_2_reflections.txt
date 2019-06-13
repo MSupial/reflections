@@ -6,3 +6,7 @@ How is the staging area different from the working directory and the repository?
 
 The staging area only contains the items that the user has selected for being included in the commit.  The working directory contains all files in the repository in its current HEAD state, while the repository itself contains the entire history of the project.  The staging area offers value in providing choice to the user of what files to include in the commit, thereby enabling each commit to represent a single, logical change in the project.
 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Files can be added or removed to the staging area with git add <file> and git rm <file>.  Additionally, the user can verify any changes between the staging area and the most recent commit.  Using both of these features, it is possible to make sure that the staging area contains only a single logical change.
