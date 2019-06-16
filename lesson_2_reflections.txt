@@ -15,3 +15,8 @@ Files can be added or removed to the staging area with git add <file> and git rm
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches could be useful when testing out an experimental feature or creating an alternate version of the project with various differences (an easier version of a game, etc).  
+
+
+How do the diagrams help you visualize the branch structure?
+
+This is a difficult question to answer.  The diagrams help with vizualization of the branch structure because it is a visual representation of the branch structure!  The diagrams just make it easy to see how different branches diverge, what commits are associated with what branches, and what commits if any are unreachable.
