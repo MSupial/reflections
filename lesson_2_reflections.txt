@@ -25,3 +25,8 @@ This is a difficult question to answer.  The diagrams help with vizualization of
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Git merge combines two branches by referring to the most-recent common commit to decide what changes to incorporate.  The merged branches take on the name of the branch that was checked out when the merge operation is executed.  It's represented visually as a common point between two branches to reflect that the new merged branch includes all of the commits that were previously specific to each branch.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging, when successful, will save a lot of time and be easier than manual merging.  In the event of conflicts, however, manual input will be required.
