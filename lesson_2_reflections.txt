@@ -20,3 +20,8 @@ Branches could be useful when testing out an experimental feature or creating an
 How do the diagrams help you visualize the branch structure?
 
 This is a difficult question to answer.  The diagrams help with vizualization of the branch structure because it is a visual representation of the branch structure!  The diagrams just make it easy to see how different branches diverge, what commits are associated with what branches, and what commits if any are unreachable.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Git merge combines two branches by referring to the most-recent common commit to decide what changes to incorporate.  The merged branches take on the name of the branch that was checked out when the merge operation is executed.  It's represented visually as a common point between two branches to reflect that the new merged branch includes all of the commits that were previously specific to each branch.
