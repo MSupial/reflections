@@ -5,3 +5,7 @@ Creating a remote repository would be beneficial any time it would be useful to 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 In the case of multiple people working on a project simultaneously, certain changes pushed to the common remote repository may not be wanted.  Alternately, in the event that destructive changes to the repository are made using the GitHub website, these can only be undone if automatic pulling does not take place.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks exist only within the GitHub site and are copies of repositories with credit given to the original repository.  Clones are also copies of repositories: local-to-local or remote-to-local.  Branches of commits refer to divergent trees of commits and can exist both locally and on GitHub.  Use fork to make a personal copy of public repository (which probably won't allow anyone to make changes) on GitHub (remote).  Use clone to make local copy of repository already on GitHub.  Use branches where logical to differentiate similarly-themed commit trees.
