@@ -13,3 +13,7 @@ Forks exist only within the GitHub site and are copies of repositories with cred
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 Updating the local copy of remote would be useful if you will be working without internet access.  If changes have been made to the remote repository that you are not ready to implement into your local branches yet, you can still update the local copy of remote, and then work at your own pace to merge these changes in.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Using Git and GitHub would obviously be easier.  Without, I imagine we would use a similar collaboration platform.
